@@ -51,6 +51,10 @@ body {
     color: #FFFFFF;
     font-weight: lighter;
     align-items: center;
+    cursor: pointer;
+}
+.navbar .list li:hover{
+    font-weight: 900;
 }
 .navbar .list-item:last-child button {
     background-color: var(--primary);
@@ -60,6 +64,11 @@ body {
     text-transform: uppercase;
     font-weight: lighter;
     border-radius: 4px;
+    cursor: pointer;
+}
+.navbar .list-item:last-child button:hover{
+    background: #FFFFFF;
+    color: #5ba0e0;
 }
 
 @media only screen and (max-width: 774px) {
@@ -126,6 +135,10 @@ body {
     font-weight: lighter;
     margin-top: 40px;
     cursor: pointer;
+}
+.hero .hero-left button:hover{
+    background-color: #FFFFFF;
+    color: #5ba0e0;
 }
 .hero .hero-right {
     margin-top: -80px;
